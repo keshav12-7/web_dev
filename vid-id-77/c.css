@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.container{
+    background-color: white;
+    
+    height: 30vh;
+    width: 50vw;
+    border: 2px  ;
+    border-radius: 20px;
+    padding: 2em;
+
+}
+h1{
+    text-align: center;
+}
+.quote-box{
+    text-align: center;
+    margin: 1em;
+    background-color: wheat;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+#quote{
+    font-weight:normal;
+    font-size: larger;
+
+    font-style: italic;
+    
+}
+.buttn{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    padding: 10px;
+    background-color: rgb(157, 220, 199);
+    border: none;
+    border-radius: 10px
+}

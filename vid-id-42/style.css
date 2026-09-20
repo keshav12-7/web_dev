@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* height: 500px; */
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: aqua
+}
+.box{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+
+    
+}
+.box1{
+    background-color: brown;
+    position: relative;
+    left: 100px;
+    z-index: 10;
+
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    z-index: 1;
+
+}
+.box3{
+    background-color: red;
+    position: relative;
+    z-index: 3;
+
+
+}
+.box4{
+    background-color: green;
+}
+.box5{
+    background-color: violet;
+}

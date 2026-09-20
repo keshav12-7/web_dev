@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    /* overflow: visible; */
+    overflow: auto;
+
+
+}

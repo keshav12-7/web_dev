@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: rgb(253, 243, 243);
+}
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 20px solid rgb(253, 243, 243) ;
+    border-radius: 15px;
+
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+    /* border: 100px solid rgb(253, 243, 243) ; */
+}
+
+.image{
+    position: relative;
+}
+.img{
+    /* display: inline-block; */
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    
+   
+    
+
+}
+.discount{
+    font-size: 30px;
+    color: white;
+    background-color:rgba(20, 88, 234, 0.4);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.box{
+    display: inline-block;
+}
+.first{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.r_name{
+   font-size: 20px;
+   font-weight:bold;
+}
+.rating{
+    
+   background-color: green;
+   height: 20px;
+   padding: 3px;
+   color: white;
+   position: absolute;
+   right: 5px;   
+   border-radius: 8px;
+}
+.second{
+    position: relative;
+    margin-bottom: 10px;
+}
+.cuisine{
+    font-size: 18px;
+    color: grey;
+}
+.price{
+    font-size: 18px;
+    position: absolute;
+    right: 5px;
+    color: grey;
+}
+.third{
+    position: relative;
+    font-size: 18px;
+}
+.address{
+    color: grey;
+
+}
+.distance{
+    position: absolute;
+    right: 5px;
+    font-weight: bold;
+}
+.one{
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+.brand{
+    color: rgb(222, 7, 7);
+    margin-right: 50px;
+    /* font-style: italic; */
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.searching{
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+    height: 30px;
+
+
+}
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: #fff;
+    border: none;
+    color: rgb(127, 125, 125);
+
+}
+.head{
+    background-color: white;
+}
+button:hover{
+    background-color: #ede7e7;
+    /* border: 1px ; */
+
+}
+
+.img1,.img2,.img3{
+    height: 70px;
+    width:  70px;
+    /* pointer-events: none; */
+}
+.c1,.c2,.c3{
+    position: relative;
+    bottom: 22px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+}
+.delivery,.nightlife{
+    margin-left: 100px;
+}
+.two{
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    
+}
+.three{
+    height: 500px;
+    background-color: gray;
+    
+}
+.dining{
+    margin-left: 200px;
+}
+
+.img1{
+    pointer-events: none;
+}

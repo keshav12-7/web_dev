@@ -1,0 +1,31 @@
+.card{
+    background-color: aqua;
+    border: 5px solid green;
+    margin: 20px 20px 20px 35vw;
+    padding: 10px;
+    width: 30vw;
+    height: 30vh;
+}
+h2{
+    color: green;
+    text-align: center;
+    
+
+}
+h3{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: beige;
+}
+.card:hover h3{
+    color: chocolate;
+}
+.card:hover{
+    background-color: pink;
+    transform: scale(1.12);
+}

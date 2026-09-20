@@ -1,0 +1,16 @@
+{
+  "name": "reactbasics",
+  "version": "1.0.0",
+  "description": "\"learning react\"",
+  "main": "s.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "keshav verma",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

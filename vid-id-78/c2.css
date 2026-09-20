@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gp{
+    height: 60vh;
+    width: 70vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height: 40vh;
+    width: 50vw;
+    background-color: rgb(31, 118, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 30vh;
+    width: 40vw;
+    background-color: red;
+    
+}

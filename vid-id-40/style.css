@@ -1,0 +1,29 @@
+.first{
+    /* display: inline; */
+    background-color: yellow;
+    height: 200px;
+    width: 150px;
+    margin: 40px;
+
+}
+.second{
+    /* display: inline; */
+
+    background-color: rgb(112, 215, 255);
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+}
+
+span{
+    display: inline-block;
+    background: green;
+    /* display: block; */
+    height: 100px;
+    width: 100px;
+
+    margin: 50px;
+    
+
+}

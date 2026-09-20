@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(232, 244, 244);
+}
+/* h1,h2,p{
+    color: rgb(185, 119, 20);
+
+
+} */
+
+h2[draggable=true]{
+    background-color: red;
+}
+section p{
+    background-color: aqua;
+}
+section>div>p{
+    color: rgb(222, 191, 151);
+}

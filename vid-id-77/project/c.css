@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+body{
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#root{
+    /* height: 60vh;
+    width: 40vw; */
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+input{
+    font-size: large;
+
+    padding: 5px;
+    margin-bottom:15px ;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+button{
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.result{
+    font-size: xx-large;
+}

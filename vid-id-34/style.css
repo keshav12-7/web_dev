@@ -1,0 +1,11 @@
+
+header{
+    background-color:rgb(228, 146, 70);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+main{
+    margin-top: 300px;
+}

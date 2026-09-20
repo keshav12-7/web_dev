@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(215, 46, 46);
+    padding: 1rem;
+}
+.left{
+    color: white;
+}
+.right button{
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    background-color: rgb(215, 46, 46);
+    border: none;
+    color: white;
+    padding-top: 0.3rem;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(186, 186, 186);
+    padding: 2rem 0rem;
+}
+.searching{
+    width: 25vw;
+    max-width: 60%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    font-size: medium;
+}
+.search button{
+    width: 6vw;
+    height: 3rem;
+    border-radius: 20%;
+    padding: 0.3rem;
+    background-color: rgb(215, 46, 46);
+    color: white;
+    font-size: medium;
+}
+/* main */
+.first{
+    position: relative;
+}
+.first img{
+    width: 100%;
+    height: 20vh;
+    display: block;
+}
+.first button{
+    position: absolute;
+    bottom:2vh ;
+    left: 50vw;
+    display: block;
+    
+    font-size: x-large;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+}
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+.mover>h2{
+    font-size: 2rem;
+}

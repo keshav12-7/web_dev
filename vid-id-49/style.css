@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    background-color: pink;
+    color: orange;
+    /* text-align: justify; */
+}
+.container{
+    background-color: aqua;
+    /* text-align: center; */
+    height: 200px;
+    text-align: center;
+}
+p{
+    background-color: red;
+}
+button{
+    background-color: green;
+}
+span{
+    background-color: yellow;
+}

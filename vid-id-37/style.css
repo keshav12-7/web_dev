@@ -1,0 +1,23 @@
+h1{
+    color: rgb(176, 103, 103);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  211%;
+}
+h3{
+    color: #31499e;
+}
+ul li{
+    color: hsl(63, 18%, 40%);
+}
+ol li{
+    color:rgba(18, 14, 56, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: #123212aa;
+}
+/* body{
+    background-image: url(../img1.png);
+    background-size: cover;
+} */
+

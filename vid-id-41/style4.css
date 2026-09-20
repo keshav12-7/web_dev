@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    background-color: aqua;
+    margin-left: 100px;
+    margin-top: 200px;
+    height: 2000px;
+    position: relative;
+    
+}
+.box{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    
+
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    position: sticky;
+    /* position: fixed; */
+    top: 20px;
+    left: 30px;
+    
+   
+}
+.box3{
+    background-color: green;
+    
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: brown;
+}
+.cont2{
+    height: 1000px;
+    background-color: brown;
+}

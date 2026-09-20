@@ -1,0 +1,30 @@
+h2{
+    background-color: aqua;
+    width: 50%;
+    padding: 10px;
+    height: 50px;
+    box-sizing: border-box;
+
+}
+ul{
+    background-color: pink;
+    border-width: 10px 20px 30px 40px;
+    border-style: solid;
+
+}
+p{
+    background-color: tomato;
+    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+}
+h4{
+    background-color: plum;
+    border-left-width: 4px;
+    border-style: solid;
+    border-color: aqua;
+    padding: 10px;
+    
+    margin: 10px 20px 30px 40px;
+    /* margin: 20px; */
+}

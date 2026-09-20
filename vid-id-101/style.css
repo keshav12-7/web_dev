@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.images{
+    position:relative;
+    left:50px;
+    top: 10px;
+
+}
+.options{
+    padding-top: 30px;
+
+}
+.but{
+    margin-right: 10px;
+    height:30px;
+    background-color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+}
+.but:hover{
+    background-color: gray;
+}
+
+.search-bar{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+    border-radius: 100px;
+    padding: 10px;
+
+
+
+}
+
+.profile{
+    padding-top: 30px;
+    padding-right: 20px;
+    
+}
+.but2{
+    margin-right: 10px;
+    height:15px;
+    background-color: white;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight:100;
+
+
+}
+
+.middle{
+    background-color: rgb(238, 238, 226);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+
+}
+.card{
+    background-color: rgb(43, 88, 43);
+    color: white;
+
+}
+
+.upper-mid{
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#sort,.filter{
+    padding: 10px;
+    border: 1px solid black ;
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-right: 20px;
+
+
+
+}
+#sort:hover{
+    background: gray;
+    color: whitesmoke;
+    border:none;
+}
+
+.filter:hover{
+    background: gray;
+    color: whitesmoke;
+    border:none;
+}

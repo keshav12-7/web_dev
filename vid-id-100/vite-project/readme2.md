@@ -1,0 +1,1 @@
+this folder - vite project is all about how vite can be used in your project

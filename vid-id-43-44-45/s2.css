@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 2vh;
+    position: relative;
+
+}
+.a{
+    display: inline-block;
+}
+.logo{
+   font-size: 50px;
+   font-weight: bolder;
+   margin-right: 30px;
+   width: 10vw;
+   position: absolute;
+   top: 0;
+    
+}
+.location{
+    width: 20vw;
+    height: 5vh;
+    position: absolute;
+    top: 0;
+}
+

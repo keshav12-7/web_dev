@@ -1,0 +1,14 @@
+
+header{
+    background-color: cadetblue;
+    position: fixed;
+    
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    /* bottom: 0px; */
+}
+main{
+    padding-top: 100px;
+    /* margin-top: 100px; */
+}
