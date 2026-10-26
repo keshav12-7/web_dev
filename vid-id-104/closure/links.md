@@ -1,0 +1,1 @@
+link for closure article for better understanding - https://www.w3schools.com/js/js_function_closures.asp
