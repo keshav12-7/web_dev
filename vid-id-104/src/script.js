@@ -30,7 +30,7 @@ function PasswordGenerator(){
 
     useEffect(()=>{
         generatepassword();
-    },[length,numberchanged,Characterchanged])
+    },[generatepassword])
 
     return(
         <>
