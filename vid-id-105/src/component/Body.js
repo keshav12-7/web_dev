@@ -3,11 +3,13 @@
     function Body(){
         const [profile,setprofile]=useState([]);
         // console.log("hello");
-        let [cnt,setcnt]=useState(5);
-        let [value,setvalue]=useState(0);
+        let [cnt,setcnt]=useState(1);
+        let [inp_value,setvalue]=useState(1);
+        let x = Math.floor(Math.random()*10000)+1
+        let [rand,setrand]=useState(x);
         
         async function generateprofile(){
-            const response = await fetch(`https://api.github.com/users?per_page=${cnt}`)
+            const response = await fetch(`https://api.github.com/users?since=${rand}&per_page=${cnt}`)
             const data = await response.json();
             setprofile(data);
         }
@@ -20,11 +22,12 @@
         return(
             <>
             <div className="search">
-                <input type="number" onChange={(e)=>{
+                <input type="number" value={inp_value} onChange={(e)=>{
                     setvalue(e.target.value);
                 }}></input>
                 <button onClick={()=>{
-                    setcnt(value);
+                    setcnt(inp_value);
+                    setrand(Math.floor(Math.random()*10000)+1)
                 }}>Click</button>
             </div>
             <div className="profile">
