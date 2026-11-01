@@ -1,0 +1,125 @@
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1117;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+/* Header */
+#heading {
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+}
+
+#heading h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, #58a6ff, #bc8cff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Profile Container */
+.profile {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* Profile Cards */
+.cards {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    padding: 25px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.cards:hover {
+    transform: translateY(-8px);
+    border-color: #58a6ff;
+    box-shadow: 0 10px 25px rgba(88, 166, 255, 0.15);
+}
+
+/* Profile Image */
+.cards img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #58a6ff;
+}
+
+/* Username */
+.cards h2 {
+    font-size: 1.2rem;
+    color: #f0f6fc;
+    word-break: break-word;
+}
+
+/* Profile Link */
+.cards a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #238636;
+    padding: 9px 22px;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cards a:hover {
+    background-color: #2ea043;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .profile {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .profile {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    #heading h1 {
+        font-size: 1.7rem;
+    }
+
+    .cards img {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile {
+        grid-template-columns: 1fr;
+    }
+}
