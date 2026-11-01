@@ -9,6 +9,7 @@ function Githubprofile(){
     return(
         <>
         <Header></Header>
+        
         <Body></Body>
         </>
     )
